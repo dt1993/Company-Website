@@ -1,6 +1,33 @@
 /*style body with background info- set to cover, add font family*/
+body{
+    font-family: Arvo, serif;
+    background: url(http://freenaturestock.s3.amazonaws.com/579.jpg) no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
 
 /*style brand*/
+.logo{
+    height: 30px;
+}
+
+#mynavBar {
+    background: rgba(0,0,0,0.5)
+}
+
+.navbar-nav li {
+    color: #ffffff;
+    font-size: 17px;
+    margin-right: 35px;
+    padding: 10px 0;
+}
+
+.navbar-nav li:hover {
+   border-bottom: 1 px solid #00FFB8;
+   padding-bottom: 9px;
+   cursor: pointer;
+}
+
 
 /*style navbar*/
 
