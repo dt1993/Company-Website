@@ -11,6 +11,7 @@ body{
     height: 30px;
 }
 
+/*style navbar*/
 #mynavBar {
     background: rgba(0,0,0,0.5)
 }
@@ -28,14 +29,35 @@ body{
    cursor: pointer;
 }
 
-
-/*style navbar*/
-
-/*style jumbogtron*/
+/*style jumbotron*/
+.jumbotron {
+    background-color: transparent;
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    padding: 50px;
+    letter-spacing: 2.5px;
+}
 
 /*limit width of icons section*/
+.container {
+    max-width: 1000px;
+}
 
 /*style icons using bootstrap grid*/
+.bodyimage {
+    height: 100px;
+    padding-bottom: 20px;
+}
+
+.col-md-4 {
+    text-align: center;
+    color: #ffffff;
+}
+
+.icons p {
+    font-size: 15px;
+}
 
 /*stye contact button*/
 
